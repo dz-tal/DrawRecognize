@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065E4622206BD0CD006FAC37 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 065E4621206BD0CD006FAC37 /* tessdata */; };
+		067DD6EF206A70D600AD7541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 067DD6EE206A70D600AD7541 /* AppDelegate.m */; };
+		067DD6F2206A70D600AD7541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067DD6F1206A70D600AD7541 /* ViewController.m */; };
+		067DD6F5206A70D600AD7541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067DD6F3206A70D600AD7541 /* Main.storyboard */; };
+		067DD6F7206A70D600AD7541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067DD6F6206A70D600AD7541 /* Assets.xcassets */; };
+		067DD6FA206A70D600AD7541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067DD6F8206A70D600AD7541 /* LaunchScreen.storyboard */; };
+		067DD6FD206A70D600AD7541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 067DD6FC206A70D600AD7541 /* main.m */; };
+		067DD76A206A720B00AD7541 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067DD769206A720B00AD7541 /* CoreImage.framework */; };
+		067DD76C206A721200AD7541 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067DD76B206A721200AD7541 /* CoreGraphics.framework */; };
+		067DD76E206A722000AD7541 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 067DD76D206A722000AD7541 /* libstdc++.6.0.9.tbd */; };
+		067DD786206A794E00AD7541 /* DTDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 067DD785206A794D00AD7541 /* DTDrawView.m */; };
+		4D2BBCE8EF09B81B821B76F3 /* libPods-OCRDraw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE31C0EAAC35D78F3BD0732 /* libPods-OCRDraw.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		065E4621206BD0CD006FAC37 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		067DD6EA206A70D600AD7541 /* OCRDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		067DD6ED206A70D600AD7541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		067DD6EE206A70D600AD7541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		067DD6F0206A70D600AD7541 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		067DD6F1206A70D600AD7541 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		067DD6F4206A70D600AD7541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		067DD6F6206A70D600AD7541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		067DD6F9206A70D600AD7541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		067DD6FB206A70D600AD7541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067DD6FC206A70D600AD7541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		067DD769206A720B00AD7541 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		067DD76B206A721200AD7541 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		067DD76D206A722000AD7541 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		067DD784206A794D00AD7541 /* DTDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDrawView.h; sourceTree = "<group>"; };
+		067DD785206A794D00AD7541 /* DTDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTDrawView.m; sourceTree = "<group>"; };
+		6EE31C0EAAC35D78F3BD0732 /* libPods-OCRDraw.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCRDraw.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D570BF98A965273E2515FB09 /* Pods-OCRDraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRDraw.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCRDraw/Pods-OCRDraw.release.xcconfig"; sourceTree = "<group>"; };
+		F7F2005567ECD927B6DB1F7A /* Pods-OCRDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRDraw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCRDraw/Pods-OCRDraw.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067DD6E7206A70D600AD7541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067DD76E206A722000AD7541 /* libstdc++.6.0.9.tbd in Frameworks */,
+				067DD76C206A721200AD7541 /* CoreGraphics.framework in Frameworks */,
+				067DD76A206A720B00AD7541 /* CoreImage.framework in Frameworks */,
+				4D2BBCE8EF09B81B821B76F3 /* libPods-OCRDraw.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067DD6E1206A70D600AD7541 = {
+			isa = PBXGroup;
+			children = (
+				067DD6EC206A70D600AD7541 /* OCRDraw */,
+				067DD6EB206A70D600AD7541 /* Products */,
+				067DD768206A720B00AD7541 /* Frameworks */,
+				E3AEE6419EC71BD52095AC08 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		067DD6EB206A70D600AD7541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067DD6EA206A70D600AD7541 /* OCRDraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067DD6EC206A70D600AD7541 /* OCRDraw */ = {
+			isa = PBXGroup;
+			children = (
+				065E4621206BD0CD006FAC37 /* tessdata */,
+				067DD6ED206A70D600AD7541 /* AppDelegate.h */,
+				067DD6EE206A70D600AD7541 /* AppDelegate.m */,
+				067DD6F0206A70D600AD7541 /* ViewController.h */,
+				067DD6F1206A70D600AD7541 /* ViewController.m */,
+				067DD784206A794D00AD7541 /* DTDrawView.h */,
+				067DD785206A794D00AD7541 /* DTDrawView.m */,
+				067DD6F3206A70D600AD7541 /* Main.storyboard */,
+				067DD6F6206A70D600AD7541 /* Assets.xcassets */,
+				067DD6F8206A70D600AD7541 /* LaunchScreen.storyboard */,
+				067DD6FB206A70D600AD7541 /* Info.plist */,
+				067DD6FC206A70D600AD7541 /* main.m */,
+			);
+			path = OCRDraw;
+			sourceTree = "<group>";
+		};
+		067DD768206A720B00AD7541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				067DD76D206A722000AD7541 /* libstdc++.6.0.9.tbd */,
+				067DD76B206A721200AD7541 /* CoreGraphics.framework */,
+				067DD769206A720B00AD7541 /* CoreImage.framework */,
+				6EE31C0EAAC35D78F3BD0732 /* libPods-OCRDraw.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3AEE6419EC71BD52095AC08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2005567ECD927B6DB1F7A /* Pods-OCRDraw.debug.xcconfig */,
+				D570BF98A965273E2515FB09 /* Pods-OCRDraw.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		067DD6E9206A70D600AD7541 /* OCRDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067DD700206A70D600AD7541 /* Build configuration list for PBXNativeTarget "OCRDraw" */;
+			buildPhases = (
+				7CBA50C79DD7A67B23D27D4C /* [CP] Check Pods Manifest.lock */,
+				067DD6E6206A70D600AD7541 /* Sources */,
+				067DD6E7206A70D600AD7541 /* Frameworks */,
+				067DD6E8206A70D600AD7541 /* Resources */,
+				C4B19B7B7975D3449D0D21EB /* [CP] Embed Pods Frameworks */,
+				632A89FD301AC3120306D345 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCRDraw;
+			productName = OCRDraw;
+			productReference = 067DD6EA206A70D600AD7541 /* OCRDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067DD6E2206A70D600AD7541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DLZ;
+				TargetAttributes = {
+					067DD6E9206A70D600AD7541 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 067DD6E5206A70D600AD7541 /* Build configuration list for PBXProject "OCRDraw" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 067DD6E1206A70D600AD7541;
+			productRefGroup = 067DD6EB206A70D600AD7541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				067DD6E9206A70D600AD7541 /* OCRDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067DD6E8206A70D600AD7541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067DD6FA206A70D600AD7541 /* LaunchScreen.storyboard in Resources */,
+				065E4622206BD0CD006FAC37 /* tessdata in Resources */,
+				067DD6F7206A70D600AD7541 /* Assets.xcassets in Resources */,
+				067DD6F5206A70D600AD7541 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		632A89FD301AC3120306D345 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRDraw/Pods-OCRDraw-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CBA50C79DD7A67B23D27D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B19B7B7975D3449D0D21EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRDraw/Pods-OCRDraw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067DD6E6206A70D600AD7541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067DD786206A794E00AD7541 /* DTDrawView.m in Sources */,
+				067DD6F2206A70D600AD7541 /* ViewController.m in Sources */,
+				067DD6FD206A70D600AD7541 /* main.m in Sources */,
+				067DD6EF206A70D600AD7541 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		067DD6F3206A70D600AD7541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067DD6F4206A70D600AD7541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		067DD6F8206A70D600AD7541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067DD6F9206A70D600AD7541 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		067DD6FE206A70D600AD7541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		067DD6FF206A70D600AD7541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		067DD701206A70D600AD7541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F2005567ECD927B6DB1F7A /* Pods-OCRDraw.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGTB52CF6G;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = OCRDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCRDraw/TesseractOCR/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"/usr/lib/libstdc++.6.0.9.dylib",
+					"-l\"stdc++\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DLZ.OCRDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		067DD702206A70D600AD7541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D570BF98A965273E2515FB09 /* Pods-OCRDraw.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGTB52CF6G;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = OCRDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCRDraw/TesseractOCR/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"/usr/lib/libstdc++.6.0.9.dylib",
+					"-l\"stdc++\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DLZ.OCRDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067DD6E5206A70D600AD7541 /* Build configuration list for PBXProject "OCRDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067DD6FE206A70D600AD7541 /* Debug */,
+				067DD6FF206A70D600AD7541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067DD700206A70D600AD7541 /* Build configuration list for PBXNativeTarget "OCRDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067DD701206A70D600AD7541 /* Debug */,
+				067DD702206A70D600AD7541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 067DD6E2206A70D600AD7541 /* Project object */;
+}
